@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Personal Branding</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    
+<style>
+    .bannerLeft{
+        height:450px;
+        background-image: linear-gradient(to bottom left,#1e1e1e,black);
+
+        
+    }
+    #myname{
+        color:white;
+        font-size: 50px;
+        padding-top: 25px;
+        padding-left: 70px;
+        font-family: Cambria,bold;
+        margin:0;
+    }
+    #list{
+        color:white;    
+        list-style-type: none;
+        padding-left: 95px;
+        font-family: arial,italic;
+        font-size: 30px;
+    }
+    #list li{
+        padding-bottom: 20px;
+    }
+
+    .bannerRight{
+        height:450px;
+        background-image: linear-gradient( #1e1e1e,black);
+        position: relative;
+    }
+    .bannerRight h1{
+        padding-top: 8px;
+        margin-left:15px;
+        color: white;
+        padding-left: 10px;
+        font-family: Cambria,bold;
+        font-size: 50px;
+        
+    }
+    .bannerRight p{
+        font-family: arial,italic;
+        font-size: 20px;
+        color:white;
+        margin-left:26px;
+        width:50%;
+    }
+    .bannerRight img{
+        display: block;
+        position: absolute;
+        top: 70px;
+        right: 100px;
+        box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
+    }
+    .contactsLeft{
+        padding-bottom: 100px;
+        background-color: black;
+        height: 400px;
+        
+    }
+    .contactsLeft h1{
+        padding-top:20px;
+        padding-bottom:10px;
+        color:#e9f5f8;
+        text-align: center;
+        margin:auto;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30pt
+       
+        
+    }
+    .contactsLeft h3{
+        margin-top:50px;
+        text-align: center;
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    .contactsRight{
+        padding-left: 70px;
+        background-color: black;
+        height: 400px;
+        
+        
+    }
+    input[type=text] {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    width: 45%;
+    padding: 12px 12px;
+    margin:15px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom:2px solid white;
+    }
+    #message{
+        font-family: 'Montserrat', sans-serif;
+        width: 97%;
+        height: 20%;
+        padding: 12px 12px;
+        margin:15px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom:2px solid white;
+    }
+    ::placeholder{
+        color:white;
+    }
+    
+    #name{
+        float:left;
+    }
+    #email{
+        float:right;
+    }
+    #contact{
+        float:left;
+    }
+    #address{
+        float:right;
+    }
+    #submit{
+        font-family: 'Montserrat', sans-serif;
+        width:97%;
+        padding: 12px 12px;
+        margin:15px;
+        
+    }
+
+</style>
+</head>
+<body>
+<header>
+    <h1>Personal Branding</h1>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutMe.html">About Me</a></li>
+        <li><a href="edu.html">Education</a></li>
+        <li><a href="Achieve.html">Achievements</a></li>
+    </ul>         
+</header>
+
+
+<table style = "border-spacing: 0px;">
+    <tr>
+        <td class="bannerLeft" style = "width:40%;">
+            <h1 id = "myname">CHOW KENG SHION</h1>   
+            <ul id = "list">
+                <li>Ngee Ann Polytechnic</li>
+                <li>School of ICT</li>
+                <li>Loves web development</li>
+                <li>Father of non</li>
+            </ul>
+        </td>
+        <td class="bannerRight" style = "width:60%;">
+            <h1>CRITICAL.<br>RESPONSIBLE.<br>COMPETITIVE.</h1>
+            <p>I'm currently a student studying in Ngee Ann Polytechnic perusing a Diploma in Information Technology. I've been studying in Singapore's education institute for more than 10 years. I am barely surviving school right now and is already on the brink of death. </p>
+            <img src="me.jpg" alt="This is me">
+        </td>
+    </tr>
+</table>
+<table style = "border-spacing: 0px;">
+    <tr>
+        <td class = "contactsLeft" style = "width:40%;">
+            <h1>Contact me</h1>
+            <h3>Personal Email: shionnn1@gmail.com</h3>
+            <h3>School Email: S10204765@connect.np.edu.sg</h3>
+            <h3>Contact No: 90468286</h3>
+        </td>
+        <td class = "contactsRight" style ="width:60%;">
+            <input type ="text" id = "name" placeholder="Name" style="color:white;">
+            <input type ="text" id = "email" placeholder="Email" style="color:white;">
+            <input type ="text" id = "contact" placeholder="Contact" style="color:white;">
+            <input type ="text" id = "address" placeholder="Address" style="color:white;">
+            <input type ="text" id = "message" placeholder="Type your message here..." style="color:white;">
+            <input type="submit" id ="submit" value="Submit">
+        </td>
+    </tr>
+</table>
+
+
+
+
+<footer>
+    <div class = "flexicon-container">
+        <div class = "flex-icon">
+            <a href="https://instagram.com"><img src="insta.png"></a>
+            
+        </div>
+        <div class = "flex-icon">
+            <a href="https://twitter.com"><img src="twitter.png"></a>
+        </div>
+        <div class = "flex-icon">
+            <a href="https://linkedin.com"><img src="linkedin.png"></a>
+        </div>
+        <div class = "flex-icon">
+            <a href="https://spotify.com"><img src="spotify.png"></a>           
+        </div>
+    </div>
+    <h6>Proudly created by Chow Keng Shion</h6>
+    <!-- <a href="http://www.freepik.com">Designed by myriammira / Freepik</a> -->
+</footer>  
+</body>
+
+
+</html>
+
