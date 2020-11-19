@@ -12,13 +12,13 @@ header{
 }
 header h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 15pt;
     display:block;
     margin:auto;
     color:#e9f5f8;
     text-align:left;
-    padding-top: 55px;
-    padding-left:20px;
+    padding-top: 60px;
+
     float: left;   
 }
 .nav {
@@ -44,6 +44,9 @@ li a {
     padding: 59px 16px;
     text-decoration: none;
 }
+li a:hover{
+    transform: scale(1.1);
+}
 
 
 footer{
@@ -59,13 +62,14 @@ footer{
 footer h6{
     
     font-family: 'Raleway', sans-serif;
-    font-size: 15pt;
+    font-size: 12pt;
     text-align: center;
     display: block;
     margin:auto;
     position: absolute;
     bottom:0; left:0; right:0;
     color:white;
+    padding-bottom: 10px;
    
 }
 
@@ -81,4 +85,26 @@ footer h6{
     display:block;
     width:20px; height:20px;
     margin-left:20px; margin-right:20px; margin-top:30px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.flex1-container{
+    width:20%   ;
+    margin:1px;
+    display:flex;
+    flex-direction:row;
+    
+}
+.flex-item1{
+    display:block;
+    margin:0;
+}
+#icon{
+    width:20%;
+    height:20%;
+    border-radius: 100%;
+    margin-top:44px;
+    margin-right:10px;
+   
 }
