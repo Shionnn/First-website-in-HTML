@@ -130,8 +130,9 @@ border-bottom:2px solid white;
     #myname{
         color:white;
         font-size: 35px;
-        padding-top: 25px;
+        padding-top: 30px;
         padding-left: 30px;
+        padding-bottom: 30px;
         font-family: Cambria,bold;
         margin:0;
     }

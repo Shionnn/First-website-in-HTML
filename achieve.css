@@ -2,9 +2,10 @@
     color:#e9f5f8;
     text-align: left;
     background-color: #1e1e1e;
-    padding: 200px;
+    padding: 10%;
     display: flex;
     flex-direction: row;
+    width:80%;
 }
 .achieve h1{
     font-family: 'Montserrat', sans-serif;
@@ -22,7 +23,15 @@
 }
 .achieve img{
     padding-top:0px;
-    padding-left:200px;
+    padding-left:0px;
     display: block; margin: auto;
-    width: 650px; height: 500px;
+    width: 50%;
+} 
+.flex-container{
+    display:block;
+    display:flex;
+    flex-direction: row;
 }
+.flex-item{
+    display:block;
+}  
