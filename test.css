@@ -17,8 +17,7 @@
 #myname{
     color:white;
     font-size: 50px;
-    padding-top: 46px;
-    padding-bottom:20px;
+    padding-top: 10px;
     padding-left: 70px;
     font-family: Cambria,bold;
     margin:0;
@@ -165,18 +164,20 @@ border-bottom:2px solid white;
         padding-bottom: 20px;
     }
     .left-content{
-        height:500px;
-        background-image: linear-gradient(to bottom left,#1e1e1e,black);   
+        height:700px;
+        background-image: linear-gradient(to bottom left,#1e1e1e,black);
+    
+        
     }
     .right-content{
-        height:500px;
+        height:700px;
         background-image: linear-gradient( #1e1e1e,black);
         position: relative;
     }
     .right-content img{
         display: block;
         position: absolute;
-        top: 40px;
+        top: 222px;
         right: 20px;
         height:40%; width:35%;
         box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
@@ -216,16 +217,16 @@ border-bottom:2px solid white;
     
     }
     .right-contact{
-        
+        padding-left: 0px;
         background-color: black;
-        height: 500px;
+        height: 600px;
         
         
     }
     .left-contact{
         padding-bottom: 100px;
         background-color: black;
-        height:500px;
+        height: 600px;
     }
     input[type=text] {
         font-family: 'Montserrat', sans-serif;

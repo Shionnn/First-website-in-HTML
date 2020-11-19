@@ -86,7 +86,7 @@ footer h6{
     width:20px; height:20px;
     margin-left:20px; margin-right:20px; margin-top:30px;
 }
-img:hover{
+.social:hover{
     transform: scale(1.1);
 }
 .flex1-container{
@@ -104,7 +104,11 @@ img:hover{
     width:20%;
     height:20%;
     border-radius: 100%;
-    margin-top:44px;
+    margin-top:39px;
     margin-right:10px;
    
 }
+ /* Mobile */
+ @media only screen and (max-width:1250px){
+
+ }

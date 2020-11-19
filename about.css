@@ -86,7 +86,7 @@
         width: 50%; 
         height: 442.35px;    
     }
-    img:hover{
+    .flex-content:hover{
         transform: scale(1.1);
     }
     .flex-content .details{
@@ -109,7 +109,7 @@
     }
 
     /* Mobile */
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1250px){
     .box div{
         background-color: black;
         padding: 40px;
