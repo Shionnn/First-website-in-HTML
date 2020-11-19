@@ -1,0 +1,107 @@
+
+    #para{
+        font-family:'Raleway', sans-serif;
+        font-size: 15pt;
+        text-align: center;
+        margin:auto;
+        color:white;
+      
+    }
+    .box{
+        height:600px;
+        background-image:url("nice background.png");
+        background-position: center;
+        background-size: cover;
+        padding: 100px;
+        margin:auto;
+    }
+    .box h1{
+        font-family:'Raleway', sans-serif;
+        text-align: center;
+        color:#e9f5f8;
+        margin:15px;
+        font-size:30pt;
+    }
+
+    .box div{
+        background-color: black;
+        padding: 40px;
+        margin: auto;
+        width: 60%;
+        
+    }
+
+    .main-content{
+        font-family:'Raleway', sans-serif;
+        color: #e9f5f8;
+        padding-top: 150px;
+        background-color: #1e1e1e;
+        padding-bottom: 150px;
+    }
+
+    .flex-content{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: black;
+        width: 90%;
+        margin-bottom:20px;
+        
+        
+    }
+    .flex-content2{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: black;
+        width:90%;
+        margin-bottom:20px;
+        
+    }
+    .flex-content3{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: black;
+        width: 90%;
+        
+           
+    }
+
+    .flex-content img{
+        display: block;
+        width: 50%; 
+        height: 60%;    
+    }
+    .flex-content2 img{
+        display: block;
+        width: 50%; 
+        height: 442.35px;    
+    }
+    .flex-content3 img{
+        display: block;
+        width: 50%; 
+        height: 442.35px;    
+    }
+
+    .flex-content .details{
+        padding: 25px;
+        text-align: center;
+        padding-top:130px;
+        padding-left:22px;
+    }
+    .flex-content2 .details{
+        padding: 25px;
+        text-align: center;
+        padding-top:130px;
+        padding-right:70px;
+    }
+    .flex-content3 .details{
+        padding: 25px;
+        text-align: center;
+        padding-top:130px;
+        padding-left:110px;
+    }
