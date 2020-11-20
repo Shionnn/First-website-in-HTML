@@ -89,6 +89,12 @@
     .flex-content:hover{
         transform: scale(1.1);
     }
+    .flex-content2:hover{
+        transform: scale(1.1);
+    }
+    .flex-content3:hover{
+        transform: scale(1.1);
+    }
     .flex-content .details{
         padding: 25px;
         text-align: center;
