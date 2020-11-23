@@ -86,13 +86,13 @@
         width: 50%; 
         height: 442.35px;    
     }
-    .flex-content:hover{
+    .flex-content img:hover{
         transform: scale(1.1);
     }
-    .flex-content2:hover{
+    .flex-content2 img:hover{
         transform: scale(1.1);
     }
-    .flex-content3:hover{
+    .flex-content3 img:hover{
         transform: scale(1.1);
     }
     .flex-content .details{
