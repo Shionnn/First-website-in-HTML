@@ -145,7 +145,7 @@ border-bottom:2px solid white;
 }
 
 /* Mobile */
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1200px){
     #myname{
         color:white;
         font-size: 35px;
