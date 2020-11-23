@@ -20,14 +20,14 @@
     padding-top: 46px;
     padding-bottom:20px;
     padding-left: 70px;
-    font-family: Cambria,bold;
+    font-family: 'Montserrat', sans-serif;
     margin:0;
 }
 #list{
     color:white;    
     list-style-type: none;
     padding-left: 95px;
-    font-family: arial,italic;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
 }
 #list li{
@@ -40,12 +40,12 @@
     margin-left:15px;
     color: white;
     padding-left: 10px;
-    font-family: Cambria,bold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     
 }
 .right-content p{
-    font-family: arial,italic;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     color:white;
     margin-left:26px;
