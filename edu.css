@@ -52,6 +52,9 @@
 }
  /* Mobile */
 @media only screen and (max-width:1250px){
+    .edu{
+        height:1300px;
+    }
     .flex-item{
         display: block;
         height:400px; width:300px;
