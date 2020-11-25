@@ -152,14 +152,14 @@ border-bottom:2px solid white;
         padding-top: 37px;
         padding-left: 30px;
         padding-bottom: 30px;
-        font-family: Cambria,bold;
+        font-family: 'Montserrat', sans-serif;
         margin:0;
     }
     #list{
         color:white;    
         list-style-type: none;
         padding-left: 55px;
-        font-family: arial,italic;
+        font-family: 'Raleway', sans-serif;
         font-size: 20px;
     }
     #list li{
@@ -187,11 +187,11 @@ border-bottom:2px solid white;
         margin-left:15px;
         color: white;
         padding-left: 10px;
-        font-family: Cambria,bold;
+        font-family: 'Raleway', sans-serif;
         font-size: 35px;
     }
     .right-content p{
-        font-family: arial,italic;
+        font-family: 'Raleway', sans-serif;
         font-size: 16px;
         color:white;
         margin-left:26px;
