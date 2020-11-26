@@ -1,3 +1,5 @@
+
+/* Main flex container */
 .main-flex{
     color: white;
     display: flex;
@@ -13,7 +15,7 @@
     background-image: linear-gradient( #1e1e1e,black);
     position: relative;
 }
-
+/* Text styling */
 #myname{
     color:white;
     font-size: 50px;
@@ -33,8 +35,6 @@
 #list li{
     padding-bottom: 20px;
 }
-
-
 .right-content h1{
     padding-top: 8px;
     margin-left:15px;
@@ -67,7 +67,7 @@
     background-color: black;
     justify-content: center;
 }
-
+/* Contact box styling */
 .left-contact{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -100,6 +100,7 @@
     
     
 }
+/* Forms */
 input[type=text] {
 font-family: 'Montserrat', sans-serif;
 background-color: black;

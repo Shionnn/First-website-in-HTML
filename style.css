@@ -1,3 +1,5 @@
+/* Styling for header,body,footer */
+
 body{
     margin:0px;
     /* height:600px; */
@@ -21,6 +23,7 @@ header h1{
 
     float: left;   
 }
+/* Nav bar */
 .nav {
     position: absolute;
     display:block;
@@ -48,7 +51,7 @@ li a:hover{
     transform: scale(1.1);
 }
 
-
+/* Footer */
 footer{
     border-top: 0.01px solid white;
     height: 100px;

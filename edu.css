@@ -2,6 +2,7 @@
     background-color: #1e1e1e;
     height:900px;
 }
+/* flex container */
 .flex-container{
     display: block;
     display:flex;
@@ -35,6 +36,7 @@
     font-weight: bold;
     margin:5px;
 }
+/* School logos */
 #wgps{
     height:60%; width:60%;
     margin-left:99px;
