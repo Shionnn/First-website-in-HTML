@@ -71,7 +71,7 @@
 .left-contact{
     margin-top: 100px;
     margin-bottom: 100px;
-    flex: 0 0 40%;
+    flex: 0 0 35%;
     background-color: black;
     
 }
@@ -95,7 +95,7 @@
 }
 .right-contact{
     padding-top: 100px;
-    flex: 0 0 60%;
+    flex: 0 0 65%;
     background:black;
     
     
