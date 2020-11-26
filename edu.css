@@ -50,7 +50,9 @@
     margin-top:40px;
     margin-bottom:106px;
 }
- /* Mobile */
+
+
+/* Mobile */
 @media only screen and (max-width:1250px){
     .edu{
         height:1300px;
