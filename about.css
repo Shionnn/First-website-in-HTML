@@ -9,7 +9,7 @@
     }
     .box{
         height:600px;
-        background-image:url("nice background.png");
+        background-image:url("images/nice background.png");
         background-position: center;
         background-size: cover;
         padding: 100px;
