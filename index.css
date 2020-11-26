@@ -6,7 +6,7 @@
 }
 .left-content{
     flex: 0 0 40%;
-    background-image: linear-gradient(to bottom left,#1e1e1e,black);
+    background-image: linear-gradient(#1e1e1e,black);
 }
 .right-content{
     flex: 0 0 60%;
