@@ -33,7 +33,6 @@ I intend to use javascript to animate some parts of my website and link a databa
 
 ## Credits:
 
-
 #footer icons:
 <a href="http://www.freepik.com">Designed by myriammira / Freepik</a>
 
